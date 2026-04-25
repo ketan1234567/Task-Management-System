@@ -1,0 +1,165 @@
+NODE.JS INTERVIEW QUESTIONS (BEGINNER TO ADVANCED)
+__________________________________________________________________________________________________________________________
+
+— BASIC (1-30) — 1. What is Node.js? 
+2. Why Node.js is single-threaded?
+3. What is Event Loop? 
+4. What is non-blocking I/O? 
+5. Difference between synchronous and asynchronous? 
+6. What is callback? 7. 
+What is Promise? 
+8. What is async/await? 
+9. What is require()? 
+10. What is module.exports? 
+11. What is fs module? 
+12. readFile vs readFileSync? 
+13.What is http module? 
+14. How to create server in Node? 15. 
+What is path module? 
+16. What is npm? 
+17. What is package.json? 
+18. dependencies vs devDependencies? 
+19. What is npx? 
+20. What is semantic versioning? 
+21.What is Express.js? 
+22. What is middleware? 
+23. What is routing? 
+24.What is req and res? 
+25. What is REST API? 
+26. GET vs POST? 
+27. PUT vs PATCH? 
+28. DELETE method? 
+29. HTTP status codes? 
+30. What is JSON?
+
+__________________________________________________________________________________________________________________________
+
+— INTERMEDIATE (31-70) — 31. 
+
+What is MVC architecture? 
+32. What is controller? 
+33. What is service layer? 
+34. What is middleware chaining?
+35. What is separation of concerns? 
+36. What is ORM? 
+37. What is Sequelize? 
+38. ORM vs raw SQL? 
+39. What is model in Sequelize? 
+40. What is migration? 
+41. How to create API? 
+42. How to fetch data? 
+43. How to update data? 
+44. How to delete data? 
+45. What is validation? 
+46. What is custom middleware? 
+47. What is error middleware? 
+48. What is CORS? 
+49.What is express.json()? 
+50. What is rate limiting? 
+51. What is JWT? 
+52.How login works? 
+53. What is token? 
+54. What is bcrypt? 
+55. Session vs Token? 
+56. What is clustering? 
+57. What is load balancing? 
+58. What is caching? 
+59. What is Redis? 
+60. What is streaming? 
+61. What is SQL Injection? 
+62. What is XSS? 
+63. What is CSRF? 
+64. How to secure API? 
+65. What is helmet? 
+66. How to handle errors? 
+67. try/catch limitations? 
+68.What is logging? 
+69. What is nodemon? 
+70. How to debug API?
+__________________________________________________________________________________________________________________________
+— ADVANCED (71-100) —
+
+71. Event loop phases? 
+72. What is microtask queue? 
+73. process.nextTick()? 
+74. setImmediate()? 
+75. nextTick vs setTimeout? 
+76. Worker threads? 
+77. Cluster module? 
+78. Horizontal vs vertical scaling? 
+79. What is PM2? 
+80. What is Docker? 
+81. Monolith vs Microservices? 
+82. What is API Gateway? 
+83. Message queues? 
+84. Circuit breaker? 
+85. Rate limiter design? 
+86. Indexing in MySQL? 
+87.Transactions? 
+88. ACID properties? 
+89. Connection pooling? 
+90. N+1 query problem? 
+91. Design URL shortener? 
+92. Design login system? 
+93. Design student API? 
+94. Scale API to 1M users? 
+95. File upload handling? 
+96.Explain your project? 
+97. Biggest bug solved? 
+98. Error handling approach? 
+99. Performance optimization? 
+100. Why Node.js?
+__________________________________________________________________________________________________________________________
+
+What You’re Missing (Important)
+
+To crack interviews, you still need:
+
+🔴 1. Explanation Skill
+
+Can you explain:
+
+👉 “What is event loop?”
+👉 “Why Node is fast?”
+__________________________________________________________________________________________________________________________
+
+If not → problem
+
+🔴 2. Project Explanation
+
+You MUST be able to say:
+
+👉 “I built a student management system using Node.js, Express, Sequelize, MySQL, React…”
+
+Then explain:
+
+Flow
+API
+DB
+Challenges
+__________________________________________________________________________________________________________________________
+
+🔴 3. Debug Thinking
+
+Example question:
+👉 “API is slow, what will you do?”
+
+You should answer:
+
+Check DB queries
+Add indexing
+Use caching
+__________________________________________________________________________________________________________________________
+🔴 4. Real API Concepts
+
+You should know:
+
+Middleware
+Validation
+Error handling
+Status codes
+
+__________________________________________________________________________________________________________________________
+
+
+

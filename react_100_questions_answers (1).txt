@@ -1,0 +1,396 @@
+1. What is React?
+React is a JavaScript library for building user interfaces using component-based architecture.
+
+2. What are the features of React?
+Virtual DOM, component-based, one-way data binding, hooks, reusable components.
+
+3. What is JSX?
+JSX is a syntax extension that allows writing HTML-like code in JavaScript.
+
+4. How does JSX work?
+JSX gets transpiled into React.createElement() calls using Babel.
+
+5. What is the virtual DOM?
+A lightweight copy of real DOM used to improve performance by minimizing updates.
+
+6. How does React differ from Angular?
+React is a library focused on UI, Angular is a full framework.
+
+7. What are components in React?
+Reusable building blocks of UI.
+
+8. Functional vs class components?
+Functional use hooks, class use lifecycle methods.
+
+9. What are props?
+Inputs passed to components.
+
+10. What is state?
+Local data managed inside component.
+
+11. What is useState?
+Hook to manage state in functional components.
+
+12. What is useEffect?
+Hook to handle side effects like API calls.
+
+13. Lifecycle of React?
+Mounting, Updating, Unmounting.
+
+14. Controlled components?
+Form elements controlled by React state.
+
+15. Uncontrolled components?
+Form elements managed by DOM.
+
+16. What is prop drilling?
+Passing props through many levels.
+
+17. How to avoid prop drilling?
+Use Context API.
+
+18. What is Context API?
+Global state sharing without props.
+
+19. What is Redux?
+State management library.
+
+20. Redux vs Context?
+Redux for large apps, Context for simple global state.
+
+21. What is React Router?
+Library for navigation.
+
+22. What is SPA?
+Single Page Application.
+
+23. What are hooks?
+Functions to use state/lifecycle in functional components.
+
+24. What is useRef?
+Access DOM or persist values.
+
+25. What is useMemo?
+Optimize expensive calculations.
+
+26. What is useCallback?
+Memoize functions.
+
+27. What is lazy loading?
+Load components when needed.
+
+28. What is code splitting?
+Split code into chunks.
+
+29. HOC?
+Function returning enhanced component.
+
+30. Render props?
+Sharing code using function prop.
+
+31. Reconciliation?
+Process of updating DOM efficiently.
+
+32. Keys?
+Unique identifiers for list items.
+
+33. Why keys?
+Help React identify changes.
+
+34. Lifting state up?
+Move state to common parent.
+
+35. Fragment?
+Group elements without extra DOM node.
+
+36. StrictMode?
+Tool for highlighting issues.
+
+37. Error boundary?
+Catch JS errors in UI.
+
+38. Synthetic event?
+Cross-browser wrapper for events.
+
+39. forwardRef?
+Pass ref to child.
+
+40. React.memo?
+Prevent unnecessary re-renders.
+
+41. SSR?
+Render on server.
+
+42. Hydration?
+Attach events to SSR HTML.
+
+43. Next.js?
+React framework for SSR/SSG.
+
+44. CSR vs SSR?
+CSR client render, SSR server render.
+
+45. React Fiber?
+Rewriting of core algorithm.
+
+46. Batching?
+Group state updates.
+
+47. Suspense?
+Handle lazy loading.
+
+48. Concurrent rendering?
+Interruptible rendering.
+
+49. useReducer?
+State management hook.
+
+50. When useReducer?
+Complex state logic.
+
+51. Custom hook?
+Reusable logic function.
+
+52. Create custom hook?
+Use hooks inside function.
+
+53. PropTypes?
+Type checking.
+
+54. Default props?
+Fallback values.
+
+55. Event handling?
+Using camelCase events.
+
+56. Conditional rendering?
+Render based on condition.
+
+57. List rendering?
+Use map().
+
+58. Forms?
+Controlled inputs.
+
+59. Refs?
+Direct DOM access.
+
+60. Portals?
+Render outside parent DOM.
+
+61. Context provider?
+Supplies global data.
+
+62. Children prop?
+Nested components.
+
+63. Reconciliation algorithm?
+Diffing trees.
+
+64. Diffing algorithm?
+Compare DOM nodes.
+
+65. Shallow comparison?
+Compare references.
+
+66. Deep comparison?
+Compare nested values.
+
+67. Immutability?
+Do not modify state directly.
+
+68. Why immutability?
+Better performance.
+
+69. State management?
+Handling app data.
+
+70. Side effects?
+External operations.
+
+71. Dependency array?
+Controls useEffect runs.
+
+72. Empty dependency?
+Run once.
+
+73. Cleanup function?
+Run before unmount.
+
+74. Debouncing?
+Delay execution.
+
+75. Throttling?
+Limit execution rate.
+
+76. Controlled vs uncontrolled?
+React vs DOM control.
+
+77. Ref forwarding?
+Pass ref deeper.
+
+78. React DevTools?
+Debug tool.
+
+79. Performance optimization?
+Memoization, lazy loading.
+
+80. Memoization?
+Cache results.
+
+81. PureComponent?
+Shallow compare.
+
+82. shouldComponentUpdate?
+Control re-render.
+
+83. key prop?
+Unique id for list.
+
+84. useLayoutEffect?
+Runs before paint.
+
+85. useEffect vs useLayoutEffect?
+Async vs sync.
+
+86. Error handling?
+Error boundaries.
+
+87. Testing?
+Verify UI behavior.
+
+88. Jest?
+Testing framework.
+
+89. React Testing Library?
+UI testing tool.
+
+90. Enzyme?
+Component testing tool.
+
+91. Bundler?
+Bundle files.
+
+92. Webpack?
+Popular bundler.
+
+93. Babel?
+Transpiler.
+
+94. Env variables?
+Config values.
+
+95. .env file?
+Store variables.
+
+96. Deployment?
+Publish app.
+
+97. Deploy React?
+Build and host.
+
+98. Build folder?
+Production files.
+
+99. npm vs npx?
+npm install, npx run.
+
+100. npm vs yarn?
+Both package managers.
+___________________________________________________________________________________________________________
+
+Basic Level (Very Common)
+
+👉 These are asked in almost every interview:
+
+What is React?
+What are components?
+What are props?
+What is state?
+Difference between props and state?
+What is JSX?
+What is Virtual DOM?
+What is one-way data binding?
+Functional vs Class components?
+What are hooks?
+
+___________________________________________________________________________________________________________
+
+Intermediate Level (Important)
+
+👉 For 2–4 years experience (your level 👇)
+
+What is useState and how it works?
+What is useEffect?
+What is dependency array in useEffect?
+What is prop drilling?
+How to avoid prop drilling?
+What is Context API?
+What is Redux?
+Difference between Context API and Redux?
+What is React Router?
+What are keys in React?
+
+___________________________________________________________________________________________________________
+
+Advanced Level (Mostly asked)
+
+👉 These make difference in selection 🔥
+
+What is useMemo?
+What is useCallback?
+Difference between useMemo and useCallback?
+What is React.memo?
+What is performance optimization in React?
+What is lazy loading?
+What is code splitting?
+What is custom hook?
+What is reconciliation?
+What is lifting state up?
+
+___________________________________________________________________________________________________________
+
+Scenario-Based Questions (Very Important 🔥)
+
+👉 These check real knowledge:
+
+How do you optimize React app?
+How do you handle large data?
+How do you manage global state?
+How do you avoid re-rendering?
+What happens when state updates?
+How React updates DOM?
+When to use useMemo/useCallback?
+How to handle API errors?
+How to structure project?
+How to improve performance?
+
+___________________________________________________________________________________________________________
+
+JWT authentication
+Login / Logout
+Protected routes
+Role-based access (admin/user)
+
+
+
+Asset 12: 1. Title does not match EDM, Lp & sendmail 2.Optin does not match 3. 
+Formfield label name does not match 4. CTA button name does not match
+
+
+admin@example.com
+
+Admin@123
+
+
+70523-Powerfleet-CPL-Q2-US
+
+ - Powerfleet-CPL-Q2-Q3-Tech Installs-US-$500M+-XDBS Corp
+
+
+https://api.anteriad.com/track/pixel?c=NzA1MjM=&p=Njc=&ev=1&e=
+
+<option selected value="US" >US</option>
+
+
+
